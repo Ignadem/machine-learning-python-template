@@ -87,7 +87,7 @@ Para añadir clases de modelos SQLAlchemy, crea nuevos archivos de script de Pyt
 Definición del modelo de ejemplo (`models/example_model.py`):
 
 ```py
-from sqlalchemy.orm import DeclarativeBase
+from sqlalchemy.orm import declarative_base
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column
 
